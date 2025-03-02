@@ -1,4 +1,4 @@
-This project is led by the **Kaggle Club at BASIS Independent Silicon Valley**. It is currently in progress.
+This project is led by the **Kaggle Club at BASIS Independent Silicon Valley**. It is currently in progress (started January 2025).
 
 - **Project leaders**: Nelson Nishio, Jason Nishio, Bill Huang
 
