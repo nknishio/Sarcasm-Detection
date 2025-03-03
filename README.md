@@ -11,17 +11,24 @@ We focus on using natural language processing and deep learning to detect sarcas
 - Self-Annotated Reddit Corpus (SARC) Dataset: https://www.kaggle.com/datasets/danofer/sarcasm?select=train-balanced-sarcasm.csv
 
 # Data preprocessing
-1. Data Cleaning & Normalization
+### Data Cleaning & Normalization for all models
   - Convert text to lowercase → Ensures consistency in tokenization
   - Expand contractions for better tokenization (eg. convert "can't" to "cannot")
   - Remove URLs, special characters, and emojis
   - Remove HTML tags
   - Remove extra whitespaces and line breaks
   - Expand slang expressions (eg. "lol" to "laughing out loud")
-2. Tokenization & Handling Word Variants
-3. Handling Out-of-Vocabulary (OOV) Words (for LSTM only)
-4. Sequence Formatting for Models
-5. Saving Preprocessed Data for Reusability
+
+### LSTM/BiLSTM-specific Preprocessing
+  - Lemmatization
+  - Removing stop words
+  - Handling Out-of-Vocabulary (OOV) Words
+  - Convert words to integer sequences using Tokenizers
+  - Pad sequences to ensure uniform input length
+### BERT/RoBERTa-specific Preprocessing
+  - Subword Tokenization
+  - Add special tokens ([CLS] at the beginning, [SEP] at the end).
+  - Generate token IDs, attention masks, and segment embeddings using transformers library.
 
 # Models used:
 We use contextual word embeddings, as many studies have shown that they significantly outperform static embeddings in sarcasm detection tasks.
