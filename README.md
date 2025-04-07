@@ -30,7 +30,10 @@ Our focus is to use natural language processing and deep learning to detect sarc
   - Add special tokens ([CLS] at the beginning, [SEP] at the end).
   - Generate token IDs, attention masks, and segment embeddings using transformers library.
 
-# Models used:
+# Models:
+We will try ML Models as well as DL models (neural networks). We are trying to use handcrafted features with PoS tag encodings, stop word encodings, negation token encodings, and n-gram probability features used by [Thaokar et al.](https://doi.org/10.1007/s42979-023-02506-5) to achieve state-of-art accuracy. We will then try to tune parameters to improve accuracy, and finally export our best model to use on our browser extension.
+ML Models: Random Forest, Decision Tree, etc.
+
 We use contextual word embeddings, as many studies have shown that they significantly outperform static embeddings in sarcasm detection tasks.
 - LSTM
 - BiLSTM
