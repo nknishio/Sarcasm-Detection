@@ -1,8 +1,8 @@
 This project is led by the **Kaggle Club at BASIS Independent Silicon Valley**. It is currently in progress (started January 2025).
 
-- **Project leaders**: Nelson Nishio, Jason Nishio, Bill Huang
+- **Researchers**: Nelson Nishio, Jason Nishio, Bill Huang, Eric Niu, Wesley Lazuardi, Kevin Li
 
-- **Other Members**:  Eric Niu, Wesley Lazuardi, Kevin Li
+- **Project leads**: Nelson Nishio, Jason Nishio, Bill Huang
 
 Our focus is to use natural language processing and deep learning to detect sarcasm from social media comments and news headlines. We strive to create a browser extension to help non-native English speakers better understand the true intentions behind text in online media. We will first optimize a model that can perform well on both of our datasets, and then integrate that model to the browser extension. On the extension, we will give probabilities of predictions and highlight (using explainable AI) the most important words that impact the model's decision to maintain the trustability of our technology.
 
