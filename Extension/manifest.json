@@ -1,0 +1,24 @@
+{
+    "name": "Sarcasm Detector",
+    "description": "Detect sarcasm from highlighted text or typed input",
+    "version": "1.0",
+    "manifest_version": 3,
+  
+    "background": {
+      "service_worker": "background/background.js"
+    },
+  
+
+    "action": {
+      "default_title": "Sarcasm Detector",
+      "default_popup": "popup/popup.html"
+    },
+  
+
+    "permissions": [
+      "contextMenus",
+      "activeTab",
+      "scripting"
+    ]
+  }
+  
