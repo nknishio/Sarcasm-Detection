@@ -51,7 +51,10 @@ We will compare the performances of the above models and make interpretations on
 View [Extension](https://github.com/nknishio/Sarcasm-Detection/tree/main/Extension) Folder
 ## Visual Demo
 Input (News Headline)
+
 <img width="644" height="560" alt="unnamed (1)" src="https://github.com/user-attachments/assets/ee460a08-4965-4f2c-8782-e0da2335f183" />
+
 Output
+
 <img width="992" height="416" alt="image" src="https://github.com/user-attachments/assets/fe5c442e-7c91-47f7-ad6d-6cb384a1d389" />
 
