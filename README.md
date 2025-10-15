@@ -52,12 +52,10 @@ We compare the performances of the above models and make interpretations on the 
 The extension contents are in the [Extension](https://github.com/nknishio/Sarcasm-Detection/tree/main/Extension) folder.
 The best-performing model was exported as a .pt (Pytorch framework) file, and can be hosted on a local server, which can be accessed by the extension to make a prediction.
 
-## Sample Demo
-Input (News Headline)
+## Functionalities (with sample demo for news headlines)
+- Users can click the extension icon from the browser extension menu on the top right of the window, and input text in the textbox.
 
 <img width="322" height="280" alt="unnamed (1)" src="https://github.com/user-attachments/assets/ee460a08-4965-4f2c-8782-e0da2335f183" />
 
-Output
-
+- Users can highlight text, right-click the highlighted text, and click "Detect Sarcasm" to create a pop-up showing the result.
 <img width="496" height="208" alt="image" src="https://github.com/user-attachments/assets/fe5c442e-7c91-47f7-ad6d-6cb384a1d389" />
-
