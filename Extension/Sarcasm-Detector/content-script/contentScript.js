@@ -32,13 +32,29 @@ document.addEventListener("mouseup", () => {
 });
 
 /** 
- * Placeholder function for sarcasm detection.
- * Replace this with your real function or API call.
- */
-function isTextSarcastic(text) {
-  // EXAMPLE: random true/false
-  return Math.random() >= 0.5;
+ * Uses server to fetch output of exported model.
+*/
+async function isTextSarcastic(text) {
+  try {
+    const response = await fetch("http://localhost:8000/detect_sarcasm", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ text }),
+    });
+
+    if (!response.ok) {
+      console.error("Server error:", response.status);
+      return false;
+    }
+
+    const result = await response.json();
+    return result.sarcastic;
+  } catch (err) {
+    console.error("Error detecting sarcasm:", err);
+    return false;
+  }
 }
+
 
 /**
  * If the user highlights text while detection is enabled,
