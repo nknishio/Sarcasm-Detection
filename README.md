@@ -49,7 +49,9 @@ We use contextual word embeddings, as many studies have shown that they signific
 We compare the performances of the above models and make interpretations on the reasons for the differences based on the nature of each model.
 
 # Final: Browser Extension for Practical Use
-View [Extension](https://github.com/nknishio/Sarcasm-Detection/tree/main/Extension) Folder
+The extension contents are in the [Extension](https://github.com/nknishio/Sarcasm-Detection/tree/main/Extension) folder.
+The best-performing model was exported as a .pt (Pytorch framework) file, and can be hosted on a local server, which can be accessed by the extension to make a prediction.
+
 ## Visual Demo
 Input (News Headline)
 
