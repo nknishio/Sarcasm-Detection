@@ -1,5 +1,5 @@
 # Overview
-This project is led by the **Kaggle Club at BASIS Independent Silicon Valley**. It is currently in progress (started January 2025).
+This project is led by the **Kaggle Club at BASIS Independent Silicon Valley**.
 
 - **Researchers**: Nelson Nishio, Jason Nishio, Bill Huang, Eric Niu, Wesley Lazuardi, Kevin Li
 
@@ -52,7 +52,7 @@ We compare the performances of the above models and make interpretations on the 
 The extension contents are in the [Extension](https://github.com/nknishio/Sarcasm-Detection/tree/main/Extension) folder.
 The best-performing model was exported as a .pt (Pytorch framework) file, and can be hosted on a local server, which can be accessed by the extension to make a prediction.
 
-## Visual Demo
+## Sample Demo
 Input (News Headline)
 
 <img width="322" height="280" alt="unnamed (1)" src="https://github.com/user-attachments/assets/ee460a08-4965-4f2c-8782-e0da2335f183" />
