@@ -39,6 +39,7 @@ In this study, we compared the effect on performance using models with contextua
 # Models:
 We tested various ML Models as well as DL models (neural networks). We also tested handcrafted features with PoS tag encodings, stop word encodings, negation token encodings, and n-gram probability features used by [Thaokar et al.](https://doi.org/10.1007/s42979-023-02506-5) to achieve state-of-the-art accuracy. We then tuned parameters to improve accuracy, and finally export our best model to use on our browser extension.
 ML Models: Random Forest, Decision Tree, etc.
+Modeling log: https://docs.google.com/spreadsheets/d/1ocr8hSp0Rq5qvdoy7NOeeqzTy8pbkbyKaofdmBsdkfo/edit?usp=sharing
 
 We use contextual word embeddings, as many studies have shown that they significantly outperform static embeddings in sarcasm detection tasks.
 - LSTM
